@@ -2,7 +2,6 @@ import cv2
 
 capture = cv2.VideoCapture('carv2.mp4')
 
-
 car_cascade = cv2.CascadeClassifier('carx.xml')
 
 while True:
