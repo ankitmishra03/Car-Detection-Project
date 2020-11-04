@@ -11,7 +11,7 @@ while True:
     cars = car_cascade.detectMultiScale(gray, 1.1, 2)
     for (x, y, w, h) in cars:
         cv2.rectangle(video, (x, y), (x+w, y+h), (0, 0, 0), 3)
-    cv2.imshow('sKSama', video )
+    cv2.imshow('CAR', video )
     if cv2.waitKey(33) == 27:
         break
 
